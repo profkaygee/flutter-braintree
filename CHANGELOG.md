@@ -1,3 +1,6 @@
+## 2.0.7
+- swift header fix
+
 ## 2.0.6
 - swift runner fix
 

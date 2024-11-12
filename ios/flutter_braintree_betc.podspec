@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_braintree_betc'
-  s.version          = '2.0.6'
+  s.version          = '2.0.7'
   s.summary          = 'A Flutter plugin for Braintree'
   s.description      = <<-DESC
   A Flutter plugin that wraps the native Braintree Drop-In UI SDKs.
