@@ -1,3 +1,6 @@
+## 2.0.5
+- swift header fix
+
 ## 2.0.4
 - fix for apple pay version in podspec
 
