@@ -1,3 +1,6 @@
+## 2.0.4
+- fix for apple pay version in podspec
+
 ## 2.0.3
 - fix for paypal version in podspec
 
