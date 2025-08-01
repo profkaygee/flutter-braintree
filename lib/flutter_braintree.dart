@@ -1,4 +1,4 @@
-library flutter_braintree_betc;
+library flutter_braintree_corevasion;
 
 export 'src/custom.dart';
 export 'src/drop_in.dart';
