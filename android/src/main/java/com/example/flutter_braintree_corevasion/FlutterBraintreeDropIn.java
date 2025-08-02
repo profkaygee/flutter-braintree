@@ -1,4 +1,4 @@
-package com.example.flutter_braintree;
+package com.example.flutter_braintree_corevasion;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;

@@ -1,4 +1,4 @@
-package com.example.flutter_braintree;
+package com.example.flutter_braintree_corevasion;
 
 import android.content.Intent;
 import android.os.Bundle;
