@@ -4,7 +4,6 @@ version '1.0'
 buildscript {
     repositories {
         google()
-        mavenCentral()
         jcenter()
     }
 
@@ -16,14 +15,6 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
-        maven {
-            url "https://cardinalcommerceprod.jfrog.io/artifactory/android"
-            credentials {
-                username 'braintree_team_sdk'
-                password 'AKCp8jQcoDy2hxSWhDAUQKXLDPDx6NYRkqrgFLRc3qDrayg6rrCbJpsKKyMwaykVL8FWusJpp'
-            }
-        }
     }
 }
 
