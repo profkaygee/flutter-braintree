@@ -1,24 +1,6 @@
 group 'com.example.flutter_braintree_corevasion'
 version '1.0'
 
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-    }
-}
-
-// THIS BLOCK IS THE FIX
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
 apply plugin: 'com.android.library'
 
 android {
@@ -39,10 +21,11 @@ android {
 }
 
 dependencies {
+    // Using the latest stable version of Braintree Drop-in
     implementation 'com.braintreepayments.api:drop-in:6.17.0'
-    // Updated to a much more recent version to avoid conflicts
+
+    // Updated dependencies to avoid other potential conflicts
     implementation 'com.google.android.gms:play-services-wallet:19.3.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    // Updated to the stable 2.x version
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }
