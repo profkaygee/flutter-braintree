@@ -16,10 +16,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        // Add this repository for Braintree's 3D Secure dependency
-        maven {
-            url "https://cardinalcommerce.jfrog.io/artifactory/android"
-        }
     }
 }
 
@@ -43,7 +39,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.braintreepayments.api:drop-in:6.13.0'
+    implementation 'com.braintreepayments.api:drop-in:6.17.0'
     // Updated to a much more recent version to avoid conflicts
     implementation 'com.google.android.gms:play-services-wallet:19.3.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
