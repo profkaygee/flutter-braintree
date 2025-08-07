@@ -11,19 +11,22 @@ buildscript {
     }
 }
 
+// THIS BLOCK IS THE FIX
 rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
+        // Add this repository for Braintree's 3D Secure dependency
+        maven {
+            url "https://cardinalcommerce.jfrog.io/artifactory/android"
+        }
     }
 }
 
 apply plugin: 'com.android.library'
 
 android {
-    // This is now the single source of truth for your package name.
     namespace "com.example.flutter_braintree_corevasion"
-
     compileSdkVersion 34
 
     defaultConfig {
