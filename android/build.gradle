@@ -12,7 +12,7 @@ buildscript {
 }
 
 // THIS BLOCK IS THE FIX
-rootProject.allprojects {
+allprojects {
     repositories {
         google()
         mavenCentral()
