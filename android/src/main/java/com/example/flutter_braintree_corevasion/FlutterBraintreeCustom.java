@@ -1,4 +1,4 @@
-package android.src.main.java.com.example.flutter_braintree_corevasion;
+package com.example.flutter_braintree_corevasion;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
