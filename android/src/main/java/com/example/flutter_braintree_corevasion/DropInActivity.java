@@ -14,7 +14,7 @@ import com.braintreepayments.api.UserCanceledException;
 
 public class DropInActivity extends AppCompatActivity implements DropInListener{
     private DropInClient dropInClient;
-    private Boolean started = false;
+    private boolean started = false;
     private DropInRequest dropInRequest;
 
     @Override
